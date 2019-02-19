@@ -1,39 +1,63 @@
 <!DOCTYPE html>
-  <html lang="hu">
-    <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="stilus.css">
-      <meta name="keszito" content="Korsós Attila">
-      <meta name="viewport" content="width=device-width">
-      <title>Html alapjai</title>
-      
-
-
-    </head>
-    <body>
-       <header>
-         <div class="container">
-          <div id="cim">
-           <h1>Html Egyszerűén és Jól</h1>
-          </div>
-         </div> 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+  	<meta name="author" content="Korsós Attila">
+    <title>Weblapkészítő cég</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="cegnev">
+          <h1><span class="highlight">Acme</span> Web Design</h1>
+        </div>
         <nav>
-         <ul>
-          </li><a href="index.html">Kezdőlap</a></li>
-          </li><a href="rolam.html">Rólam</a></li>
-         </ul>
-        </nav>   
-       </header>
-       <section id="bemutato">
-        <div class="container">
-          <h1>Tanulj gyorsan és egyszerűen HTML-t és CSS-t</h1>
-          <p>Ezen az oldalon egyszerűen és gyorsan megtanulhatsz HTML-lel és CSS-el profi weboldalakat csinálni</p>
+          <ul>
+            <li class="current"><a href="index.html">Kezdőlap</a></li>
+            <li><a href="about.html">Rólunk</a></li>
+            <li><a href="services.html">Szolgáltatásaink</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <h1>Affordable Professional Web Design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5 Markup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
-        <div class="doboz">
-          <h3>Ha Többet meg akarsz tudni rólam akkor látogass el a(z) About me részre</h3>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
-    </body>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+      </div>
+    </section>
     <footer>
-      <p> Copyright &copy; 2019</p>
+      <p>Weblapkészítőcég, Copyright &copy; 2019</p>
     </footer>
-  </html>
+  </body>
+</html>
