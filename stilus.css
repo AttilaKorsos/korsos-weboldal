@@ -20,14 +20,58 @@ header{
   min-height:70px;
   border-bottom:#e8491d 3px solid;
 }
-header a{
+a{
   color:#ffffff;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
 }
-header li{
+li{
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
 }
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+#bemutato{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+#bemutato h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#bemutato p{
+  font-size:20px;
+}
+#doboz{
+  margin-top:20px;
+}
+
+doboz{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
